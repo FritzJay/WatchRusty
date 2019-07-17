@@ -18,3 +18,5 @@ $Settings = New-ScheduledTaskSettingsSet -RunOnlyIfNetworkAvailable
 $ScheduledTask = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings
 Register-ScheduledTask WatchRusty -InputObject $ScheduledTask
 ```
+
+Or, clone the project and run the PowerShell script, which is the same as the code above.
