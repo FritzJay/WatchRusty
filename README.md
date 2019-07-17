@@ -20,3 +20,11 @@ Register-ScheduledTask WatchRusty -InputObject $ScheduledTask
 ```
 
 Or, clone the project and run the PowerShell script, which is the same as the code above.
+
+## I love Rusty but I'm tired of my browser popping up every day
+
+If you want to stop this automated nonsense, open up Windows PowerShell and paste the following:
+
+```PowerShell
+Unregister-ScheduledTask WatchRusty -Confirm:false
+```
