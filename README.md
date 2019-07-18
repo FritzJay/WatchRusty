@@ -1,10 +1,10 @@
 # WatchRusty
 
-Automatically open your preferred browser to Rusty's stream, everyday, at 9pm EDT
+Automatically open your preferred browser to Rusty's stream, everyday, at 9pm EDT.
 
 ## How to do?
 
-Open up "Windows PowerShell" and paste the following:
+Open up Windows PowerShell and paste the following:
 
 ```PowerShell
 $9pm = Get-Date -Hour 21 -Minute 0 -Second 0 -Format "yyyy-MM-ddTHH:mm:ss"
@@ -22,7 +22,7 @@ Register-ScheduledTask WatchRusty -InputObject $ScheduledTask
 
 Or, clone the project and run the PowerShell script, which is the same as the code above.
 
-## I love Rusty but I'm tired of my browser popping up every day
+## Okay I'm done now
 
 If you want to stop this automated nonsense, open up Windows PowerShell and paste the following:
 
