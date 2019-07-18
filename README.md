@@ -22,6 +22,10 @@ Register-ScheduledTask WatchRusty -InputObject $ScheduledTask
 
 Or, clone the project and run the PowerShell script, which is the same as the code above.
 
+## What does it do?
+
+It creates a Windows Scheduled Task that automatically opens your default web browser to twitch.tv/rusty_neal when he starts streaming. If you aren't familiar with Windows Scheduled Tasks and would like to remove this beauty, no problemo. Follow the step(s) below to remove the task automatically.
+
 ## Okay I'm done now
 
 If you want to stop this automated nonsense, open up Windows PowerShell and paste the following:
