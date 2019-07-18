@@ -1,6 +1,6 @@
 $9pm = Get-Date -Hour 21 -Minute 0 -Second 0 -Format "yyyy-MM-ddTHH:mm:ss"
 $EasternStandardTime = [System.TimeZoneInfo]::FindSystemTimeZoneById("Eastern Standard Time")
-$LocalTimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById([System.TimeZone]::CurrentTimeZone.StandardName)
+$LocalTimeZone = Get-Timezone
 $9pmRustysTime = [System.TimeZoneInfo]::ConvertTime($9pm, $EasternStandardTime, $LocalTimeZone)
 
 $Trigger = New-ScheduledTaskTrigger -Daily -At $9pmRustysTime
