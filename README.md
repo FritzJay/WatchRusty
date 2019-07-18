@@ -33,3 +33,7 @@ If you want to stop this automated nonsense, open up Windows PowerShell and past
 ```PowerShell
 Unregister-ScheduledTask WatchRusty -Confirm:$false
 ```
+
+## It's not working
+
+Try running Windows PowerShell as an administrator? If that doesn't work yell at me in Rusty's discord @Fritz#7361
